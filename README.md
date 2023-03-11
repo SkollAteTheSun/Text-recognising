@@ -10,7 +10,7 @@ This dataset was chosen based on the availability and variability of writing the
 The number of output neurons corresponds to the number of symbols in the dataset. 
 ReLu and SoftMax activation functions are used.
 
-To begin with, the image is processed using a Gaussian blur. This effect is widely used in graphics editors to reduce image noise and detail. 
+To begin with, the image is processed using a **Gaussian blur.** This effect is widely used in graphics editors to reduce image noise and detail. 
 Gaussian blur is also used as a pre-processing step in computer vision algorithms to improve image structure at various scales.
 
 The **cv2 library** is used for character recognition. Using this library, we find the contours of characters, increase the space around them. 
